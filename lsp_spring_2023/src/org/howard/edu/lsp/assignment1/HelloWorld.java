@@ -1,5 +1,5 @@
 /**
- * Name: Malcolm Geay
+ * Name: Malcolm Gray
  */
 package org.howard.edu.lsp.assignment1;
 
