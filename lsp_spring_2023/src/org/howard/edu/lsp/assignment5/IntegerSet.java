@@ -20,5 +20,17 @@ public class IntegerSet {
 	
  	public void add(int item) {…};
  	
+ 	public void remove(int item) {…}; 
+ 	
  	public void union(IntegerSet intSetb) {…};
+ 	
+ 	public void intersect(IntegerSet intSetb) {…}; 
+ 	
+ 	public void diff(IntegerSet intSetb); 
+ 	
+ 	boolean isEmpty(); 
+ 	
+ 	public String toString() {…};
+ 	
 }
+
