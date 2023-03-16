@@ -6,9 +6,6 @@ package org.howard.edu.lsp.assignment5;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-
 public class IntegerSet {
 	private static final Object integer = null;
 	private static final String IntegerSet = null;
