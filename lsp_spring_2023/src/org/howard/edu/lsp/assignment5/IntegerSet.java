@@ -2,41 +2,48 @@
  * Name: Malcolm Gray 
  */
 package org.howard.edu.lsp.assignment5;
+
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
 public class IntegerSet {
+	private static final Object integer = null;
+	private static final String IntegerSet = null;
 	private List<Integer> set = new ArrayList<Integer>();
 	
-	public void clear(){
-		set.clear();
+	public void setUp(){
 	}
+	
+	public void testEquals() {
+	    }
 	
 	public int length(){
 		return set.size();
 	}
 	
-	public boolean equals(IntegerSet b) {…}; 
+	public boolean equals(IntegerSet b) {
+		return false;
+		
+	}
 	
-	public boolean contains(int value) {…}; 
+	public boolean contains(int value) {
+		return true;
+	} 
 	
-	public int largest() throws IntegerSetException {…}; 
-	
-	public int smallest() throws IntegerSetException;
-	
- 	public void add(int item) {…};
+ 	public void add(int item) {
+ 		assertTrue(true);
  	
- 	public void remove(int item) {…}; 
+ 	}
  	
- 	public void union(IntegerSet intSetb) {…};
- 	
- 	public void intersect(IntegerSet intSetb) {…}; 
- 	
- 	public void diff(IntegerSet intSetb); 
- 	
- 	boolean isEmpty(); 
- 	
- 	public String toString() {…};
- 	
+ 	private void assertTrue(boolean b) {
+ 		assertTrue(false);
+	}
+
+	public void remove(int item) {
+ 		assertTrue(false);
+ 	} 	
 }
 
