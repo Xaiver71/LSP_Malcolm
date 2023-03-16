@@ -2,13 +2,19 @@
  * Name: Malcolm Gray 
  */
 package org.howard.edu.lsp.assignment5;
+import java.util.ArrayList;
+import java.util.List;
 
 public class IntegerSet {
 	private List<Integer> set = new ArrayList<Integer>();
 	
-	public void clear() {…};
+	public void clear(){
+		set.clear();
+	}
 	
-	public int length() {…};
+	public int length(){
+		return set.size();
+	}
 	
 	public boolean equals(IntegerSet b) {…}; 
 	
